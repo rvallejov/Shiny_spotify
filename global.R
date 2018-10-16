@@ -151,8 +151,7 @@ polarity.region <- as.data.frame(spotify.data %>%
                 n.regular = sum(n.regular), n.outlier = sum(n.outlier)) %>%
       mutate(s.outlier.part = s.outlier/(s.regular+s.outlier),
              n.outlier.part = n.outlier/(n.regular+n.outlier)) %>%
-      filter(n.outlier > 100)
-        )
+      filter(n.outlier > 100))
 
 # LOAD REGIONS CODE DATA
 # spotify.region.codes <- fread(file = "./spotify_region_codes.csv", stringsAsFactors = FALSE)
