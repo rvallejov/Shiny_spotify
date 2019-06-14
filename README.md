@@ -1,6 +1,9 @@
 # Understanding Spotify's daily top 200 charts for 2017
 #NYCDSA Fall 2018 Cohort
 
+#Blog post:
+https://nycdatascience.com/blog/student-works/r-shiny/polarized-listening-habits-spotifys-top200/
+
 #App:
 https://rvallejov.shinyapps.io/shiny_spotify/
 
